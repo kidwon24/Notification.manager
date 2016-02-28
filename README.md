@@ -6,13 +6,16 @@ Init:
   var notification = window.createNotification();
 ```
 
-Add message to notification 
+Add and also render message to notification 
 
-**notification.addMsg(msg, dontRenderMessageNow)**
+**notification.addMsg(msg, dontRenderMessage)**
+
+**dontRenderMessage** - Flag for adds the message but don't renders it
 ```javascript
   // returns 'messageId' which is generated when not provided
-  
-  notification.addMsg({text:msg, type:'alert'});
+  notification.addMsg({text:'A message', type:'alert'});
+  // Message only added but not rendered
+  notification.addMsg({text:'Another msg', type:'alert'}, true);
 ```
 
 
@@ -32,4 +35,27 @@ Render notification:
   notification.render(300, function(instance){
     instance.addMsg("Notification was rendered!");
   });
+```
+
+Render message:
+```javascript
+  // By id
+  notification.renderMsg({id: 'yuht658'});
+```
+  
+```javascript
+  // By index
+  notification.renderMsg({index: 5});
+```
+
+Hide message:
+```javascript
+  notification.hideMsg({id: 'huuu777'});
+  notification.hideMsg({index: 2});
+```
+
+Remove message:
+```javascript
+  notification.removeMsg({id: 'huuu777'});
+  notification.removeMsg({index: 1});
 ```
