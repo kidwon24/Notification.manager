@@ -6,6 +6,8 @@ Use:
 	<script src="http://code.jquery.com/jquery.min.js"></script>
 	<script src="transition-end.min.js"></script>
 	<script src="notification.menager.min.js"></script>
+	
+	<link rel="stylesheet" href="notification.menager.css" type="text/css" media="screen" charset="utf-8"/>
 ```
 
 
