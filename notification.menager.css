@@ -1,0 +1,33 @@
+.notification{
+}
+
+.notf-msg{
+	padding: 3px 5px;
+}
+
+.op0{
+	opacity: 0;
+}
+.op1{
+	opacity: 1;
+}
+.optrans{
+	transition: opacity .30s ease-in-out;
+	-moz-transition: opacity .30s ease-in-out;
+	-webkit-transition: opacity .30s ease-in-out;
+}
+
+.alert{
+	font-weight: bold;
+	background-color: yellow;
+}
+
+.info{
+	color: #fff;
+	background-color: green;
+}
+
+.err{
+	color: #fff;
+	background-color: red;
+}
