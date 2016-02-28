@@ -13,8 +13,8 @@ Add message to notification
 ```
 
 
-Message structure
+Message structure:
+The system generates message id if not provided
 ```javascript
   {id: 'anId', text:'Example text', type: 'info'}
 ```
-The system generates message id if not provided
