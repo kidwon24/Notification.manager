@@ -34,8 +34,6 @@ Add and also render message to notification:
 ```
 
 <br />
-<br />
-
 Message structure:
 
 The system generates message id if not provided
