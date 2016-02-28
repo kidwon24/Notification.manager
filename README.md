@@ -25,6 +25,22 @@ The system generates message id if not provided
 ```javascript
   {id: 'anId', text:'Example text', type: 'info'}
 ```
+```
+type defaults: 'info', 'alert', 'err'
+```
+
+Add your own message type: 
+```css
+  .mymsg{
+    fonte-weight: 300;
+    backgroud-color: orange;
+  }
+```
+```javascript
+  // returns 'messageId' which is generated when not provided
+  notification.addMsg({text:'A custom message', type:'mymsg'});
+  // Message only added but not rendered
+```
 
 Render notification: 
 
