@@ -44,6 +44,7 @@ The system generates message id if not provided
 type defaults: 'info', 'alert', 'err'
 ```
 
+<br />
 
 Add your own message type: 
 ```css
@@ -56,7 +57,11 @@ Add your own message type:
   notification.addMsg({text:'A custom message', type:'mymsg'});
 ```
 
+<br />
+
 Render notification: 
+
+<br />
 
 **notification.render(timeOut, onRenderCallback)**
 
@@ -66,6 +71,8 @@ Render notification:
     instance.addMsg("Notification was rendered!");
   });
 ```
+
+<br />
 
 Render message:
 ```javascript
