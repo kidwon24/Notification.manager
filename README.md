@@ -28,9 +28,11 @@ Add and also render message to notification:
 **dontRenderMessage** - Flag for adding the message without rendering it
 ```javascript
   // returns 'messageId' which is generated when not provided
-  notification.addMsg({text:'A message', type:'alert'});
+  var msgId = notification.addMsg({text:'A message', type:'alert'});
   // Message only added but not rendered
-  notification.addMsg({text:'Another msg', type:'alert'}, true);
+  var msgId2 = notification.addMsg({text:'Another msg', type:'alert'}, true);
+  
+  notification.removeMsg({id: msgId});
 ```
 
 <br />
