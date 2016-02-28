@@ -3,5 +3,5 @@
 Init:
 
 ```javascript
-  var notification = create.notification();
+  var notification = window.createNotification();
 ```
