@@ -1,5 +1,14 @@
 # Notification.menager
 
+
+Use:
+```html
+    <script src="http://code.jquery.com/jquery-2.2.1.min.js"></script>
+		<script src="transition-end.min.js"></script>
+		<script src="notification.menager.min.js"></script>
+```
+
+
 Init:
 
 ```javascript
