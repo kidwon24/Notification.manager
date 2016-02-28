@@ -10,12 +10,17 @@ Use:
 	<link rel="stylesheet" href="notification.menager.css" type="text/css" media="screen" charset="utf-8"/>
 ```
 
+<br />
+<br />
 
 Init:
 
 ```javascript
   var notification = window.createNotification();
 ```
+
+<br />
+<br />
 
 Add and also render message to notification 
 
@@ -29,6 +34,8 @@ Add and also render message to notification
   notification.addMsg({text:'Another msg', type:'alert'}, true);
 ```
 
+<br />
+<br />
 
 Message structure:
 
@@ -39,6 +46,7 @@ The system generates message id if not provided
 ```
 type defaults: 'info', 'alert', 'err'
 ```
+
 
 Add your own message type: 
 ```css
