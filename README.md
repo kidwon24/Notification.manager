@@ -11,7 +11,6 @@ Use:
 ```
 
 <br />
-<br />
 
 Init:
 
@@ -20,10 +19,10 @@ Init:
 ```
 
 <br />
+
+Add and also render message to notification:
+
 <br />
-
-Add and also render message to notification 
-
 **notification.addMsg(msg, dontRenderMessage)**
 
 **dontRenderMessage** - Flag for adding the message without rendering it
