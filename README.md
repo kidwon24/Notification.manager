@@ -16,6 +16,11 @@ Init:
 
 ```javascript
   var notification = window.createNotification();
+  
+  // default notification container <body>
+  var notification2 = window.createNotification({
+  	container: $('#container')
+  });
 ```
 
 <br />
