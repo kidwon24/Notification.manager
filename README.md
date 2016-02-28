@@ -1,4 +1,4 @@
-# Notification.menager
+# Notification.manager
 
 
 Use:
