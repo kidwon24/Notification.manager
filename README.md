@@ -37,7 +37,6 @@ Add your own message type:
   }
 ```
 ```javascript
-  // returns 'messageId' which is generated when not provided
   notification.addMsg({text:'A custom message', type:'mymsg'});
 ```
 
