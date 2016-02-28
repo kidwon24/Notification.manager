@@ -10,7 +10,7 @@ Add and also render message to notification
 
 **notification.addMsg(msg, dontRenderMessage)**
 
-**dontRenderMessage** - Flag for adds the message but don't renders it
+**dontRenderMessage** - Flag for adding the message without rendering it
 ```javascript
   // returns 'messageId' which is generated when not provided
   notification.addMsg({text:'A message', type:'alert'});
@@ -58,4 +58,12 @@ Remove message:
 ```javascript
   notification.removeMsg({id: 'huuu777'});
   notification.removeMsg({index: 1});
+```
+
+
+Notification destroy:
+```javascript
+  notification.destroy(300, function(){
+    // on Destroy
+  });
 ```
